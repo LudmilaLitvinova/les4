@@ -11,18 +11,18 @@ public class Dog extends Animal{
     @Override
     public void run(int length) {
         if (length <= 500) {
-            System.out.println(super.getName() +" пробіг " + length + " м.");
+            super.run(length);
         } else {
-            System.out.println(super.getName() +" стільки не бігає");
+            System.out.println(getName() +" стільки не бігає");
         }
     }
 
     @Override
     public void swim(int length) {
         if (length <= 10) {
-            System.out.println(super.getName() +" проплив " + length + " м.");
+            super.swim(length);
         } else {
-            System.out.println(super.getName() +" стільки не плаває");
+            System.out.println(getName() +" стільки не плаває");
         }
     }
 

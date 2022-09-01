@@ -1,3 +1,5 @@
+package ua.hillelit.lms;
+
 import ua.hillelit.lms.model.Animal;
 import ua.hillelit.lms.model.Cat;
 import ua.hillelit.lms.model.Dog;

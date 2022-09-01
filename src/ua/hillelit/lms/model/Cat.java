@@ -12,15 +12,15 @@ public class Cat extends Animal{
     @Override
     public void run(int length) {
         if (length <= 200) {
-            System.out.println(super.getName() +" пробіг " + length + " м.");
+          super.run(length);
         } else {
-            System.out.println(super.getName() +" стільки не бігає");
+            System.out.println(getName() +" стільки не бігає");
         }
     }
 
     @Override
     public void swim(int length) {
-        System.out.println(super.getName() + " не плаває");
+        System.out.println(getName() + " не плаває");
     }
 
     public static void printNumber(){
